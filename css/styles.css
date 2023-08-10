@@ -17,6 +17,10 @@ body {
 ul {
   list-style: none;
 }
+
+img {
+  display: block;
+}
 /*header*/
 .header {
   padding: 24px 156px;
