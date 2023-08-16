@@ -31,7 +31,15 @@ img {
   justify-content: space-between;
   border-bottom: 1px solid var(--cornflower);
 }
+.container {
+  width: 1158px;
+  display: flex;
+  margin:  0 auto;
+  padding: 0  15px;
+}
+
 .header_nav-logo {
+  margin-right: 76px
   text-decoration: none;
   color: var(--iris);
   font-family: "Raleway", sans-serif;
