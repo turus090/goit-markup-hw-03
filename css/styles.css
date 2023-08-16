@@ -14,6 +14,10 @@ body {
   background-color: #FFFFFF;
 }
 
+.container {
+  width: 1158px;
+}
+
 ul {
   list-style: none;
 }
@@ -185,7 +189,7 @@ color: var(--ocean);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 }
 
-..visually-hidden{
+.visually-hidden{
   visibility: hidden;
 }
 .advantage {
@@ -196,6 +200,7 @@ color: var(--ocean);
 
 .advantage_list {
   display: flex;
+  width: calc((100% - 72px) / 4);
   column-gap: 24px;
   gap: 24px;
   width: 100%;
@@ -206,6 +211,7 @@ color: var(--ocean);
 }
 
 .advantage_list_item-title {
+  width: calc((100% - 72px) / 4);
   margin-bottom: 8px;
   color: var(--navyblue);
   font-size: 20px;
@@ -230,9 +236,11 @@ color: var(--ocean);
 .about {
   width: 1128px;
   margin: 120px auto 0 auto;
+  padding-bottom: 120px;
 }
 
 .about-title {
+  margin-bottom: 72px; 
   color: var(--navyblue);
   text-align: center;
   font-size: 36px;
@@ -247,11 +255,12 @@ color: var(--ocean);
   width: 100%;
   padding-top: 72px;
   display: flex;
-  gap: 48px 24px;
+  gap: 24px;
   flex-wrap: wrap;
 }
 
 .about_list_item {
+  width: calc((100% - 48px) / 3); 
   outline: 1px solid var(--cornflower);
   background: lightgray 50%;
 }
