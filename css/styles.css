@@ -403,7 +403,7 @@ color: var(--ocean);
 }
 .footer {
   margin: 120px auto 0 auto;
-  padding: 100px 156px;
+  padding: 100px 0;
   width: 1440px;
   background: var(--navyblue);
 }
@@ -412,6 +412,8 @@ color: var(--ocean);
 }
 
 .footer_wrapper-logo {
+  display: inline-block;
+  margin-bottom: 16px;
   text-decoration: none;
   color: var(--iris);
   font-family: "Raleway", sans-serif;
@@ -428,6 +430,7 @@ color: var(--ocean);
 }
 
 .footer_wrapper-text {
+  max-width: 264px;
   padding-top: 16px;
   color: var(--cloud);
   font-family: Roboto;
