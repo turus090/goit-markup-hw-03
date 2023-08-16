@@ -37,7 +37,9 @@ img {
   margin:  0 auto;
   padding: 0  15px;
 }
-
+.header_nav{
+  margin-right: 76px
+}
 .header_nav-logo {
   margin-right: 76px
   text-decoration: none;
@@ -71,9 +73,14 @@ img {
 .header_nav_list {
   display: flex;
   column-gap: 40px;
+  gap: 40px;
+
 }
 
-
+.header_nav_list_item{
+  gap: 40px;
+  padding: 24px 0;
+}
 .header_nav_list_item-link {
   text-decoration: none;
   color: var(--navyblue);
