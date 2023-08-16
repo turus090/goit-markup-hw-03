@@ -268,10 +268,12 @@ color: var(--ocean);
 .team {
   width: 1440px;
   margin: 120px auto 0 auto;
+  padding: 120px 0; 
   background-color: var(--cloud);
 }
 
 .team-title {
+  margin-bottom: 72px; 
   color: var(--navyblue);
   text-align: center;
   font-size: 36px;
@@ -287,7 +289,7 @@ color: var(--ocean);
   width: 100%;
   padding: 72px 156px;
   display: flex;
-  column-gap: 24px;
+  gap: 24px;
 }
 
 .team_list_item-name {
@@ -302,6 +304,8 @@ color: var(--ocean);
 }
 
 .team_list_item {
+  border-radius: 0px 0px 4px 4px;
+  width: calc((100% - 72px) / 4);
   background-color: #FFFFFF;
 }
 
