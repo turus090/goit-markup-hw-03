@@ -193,8 +193,19 @@ img {
 }
 
 .visually-hidden {
-  visibility: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
+
+
 .advantage {
   width: 1128px;
   margin: 120px auto 0 auto;
@@ -203,14 +214,13 @@ img {
 
 .advantage_list {
   display: flex;
-  width: calc((100% - 72px) / 4);
   column-gap: 24px;
   gap: 24px;
   width: 100%;
 }
 
 .advantage_list_item {
-  width: calc((100% - 72px) / 4);
+  width: calc((100%-72px)/4);
 }
 
 .advantage_list_item-title {
