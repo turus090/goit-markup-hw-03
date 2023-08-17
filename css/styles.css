@@ -75,12 +75,10 @@ img {
   display: flex;
   column-gap: 40px;
   gap: 40px;
-  padding: 24px 0;
 }
 
 .header_nav_list_item {
   gap: 40px;
-  padding: 24px 0;
 }
 .header_nav_list_item-link {
   text-decoration: none;
