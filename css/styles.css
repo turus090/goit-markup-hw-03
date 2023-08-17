@@ -89,6 +89,7 @@ img {
   padding: 24px auto;
 }
 .header_nav_list_item-link {
+  padding: 24px auto;
   text-decoration: none;
   color: var(--navyblue);
   font-family: Roboto;
