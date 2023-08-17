@@ -16,6 +16,7 @@ body {
 
 .container {
   width: 1158px;
+  display: flex;
   padding: 0 15px;
   margin: 0 auto;
 }
