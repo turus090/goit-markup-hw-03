@@ -206,11 +206,11 @@ img {
 }
 
 
-.advantage {
+/*.advantage {
   width: 1128px;
   margin: 120px auto 0 auto;
   padding: 120px 0;
-}
+}*/
 
 .advantage_list {
   display: flex;
@@ -219,11 +219,10 @@ img {
 }
 
 .advantage_list_item {
-  /*flex-basis: calc((100% - 3 * 24px) / 4);*/
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .advantage_list_item-title {
-  flex-basis: calc((100% - 3 * 24px) / 4);
   margin-bottom: 8px;
   color: var(--navyblue);
   font-size: 20px;
