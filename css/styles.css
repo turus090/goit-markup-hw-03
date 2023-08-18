@@ -216,10 +216,11 @@ img {
   display: flex;
   gap: 24px;
   width: 100%;
+  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .advantage_list_item {
-  flex-basis: calc((100% - 3 * 24px) / 4);
+  /*flex-basis: calc((100% - 3 * 24px) / 4);*/
 }
 
 .advantage_list_item-title {
