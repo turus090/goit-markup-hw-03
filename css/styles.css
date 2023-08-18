@@ -208,11 +208,11 @@ img {
 }
 
 
-/*.advantage {
-  width: 1128px;
+.advantage {
+  /*width: 1128px;*/
   margin: 120px auto 0 auto;
   padding: 120px 0;
-}*/
+}
 
 .advantage_list {
   display: flex;
