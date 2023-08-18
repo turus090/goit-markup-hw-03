@@ -216,7 +216,6 @@ img {
   display: flex;
   gap: 24px;
   width: 100%;
-  flex-basis: calc((100% - 3 * 24px) / 4);
 }
 
 .advantage_list_item {
@@ -224,7 +223,7 @@ img {
 }
 
 .advantage_list_item-title {
-  /*width: calc((100%-72px)/4);*/
+  flex-basis: calc((100% - 3 * 24px) / 4);
   margin-bottom: 8px;
   color: var(--navyblue);
   font-size: 20px;
