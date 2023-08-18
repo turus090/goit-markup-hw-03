@@ -214,17 +214,16 @@ img {
 
 .advantage_list {
   display: flex;
-  column-gap: 24px;
   gap: 24px;
   width: 100%;
 }
 
-/*.advantage_list_item {
-  width: calc((100%-72px)/4);
-}*/
+.advantage_list_item {
+  flex-basis: calc((100% - 3 * 24px) / 4);
+}
 
 .advantage_list_item-title {
-  width: calc((100%-72px)/4);
+  /*width: calc((100%-72px)/4);*/
   margin-bottom: 8px;
   color: var(--navyblue);
   font-size: 20px;
