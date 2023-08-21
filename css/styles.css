@@ -414,10 +414,11 @@ margin-bottom: 8px;
   background: var(--white);
 }
 
-.portfolio_list_item_link-name{
+.container_portfolio{
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
-  border-top: none; 
+  border-top: none;
+  margin-bottom: 8px; 
 }
 
 .portfolio_list_item-title {
