@@ -14,6 +14,24 @@ body {
   background-color: #ffffff;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+  background: transparent;
+}
+
+p {
+  margin: 0;
+}
 
 a{
   list-style: none;
@@ -34,11 +52,6 @@ img {
 }
 /*header*/
 .header {
-  width: 1158px;
-  margin: 0 auto;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   border-bottom: 1px solid var(--cornflower);
 }
 
@@ -78,13 +91,13 @@ img {
 
 .header_nav {
   display: flex;
-  column-gap: 76px;
+ 
   align-items: center;
 }
 
 .header_nav_list {
   display: flex;
-  column-gap: 40px;
+  
   gap: 40px;
 }
 
@@ -111,12 +124,12 @@ img {
 }
 
 .header_address {
+  margin-left: auto;
   font-style: normal;
 }
 
 .header_adress_list {
   display: flex;
-  column-gap: 40px;
   gap: 40px;
   padding: 24px 0;
 }
@@ -146,12 +159,12 @@ img {
   margin: 0 auto;
   padding: 188px 0;
   background: var(--navyblue);
-  width: 496px;
-  height: 224px;
 }
 
 .hero-item {
   max-width: 496px;
+  margin-left: auto;
+  margin-right: auto;
   color: var(--white);
   text-align: center;
   /* Header 1 */
@@ -211,8 +224,6 @@ img {
 
 
 .advantage {
-  /*width: 1128px;*/
-  margin: 120px auto 0 auto;
   padding: 120px 0;
 }
 
@@ -238,7 +249,6 @@ img {
 
 .advantage_list_item-text {
   margin-bottom: 8px;
-  padding-top: 8px;
   color: var(--slate);
   font-family: Roboto;
   font-size: 16px;
@@ -249,8 +259,6 @@ img {
 }
 
 .about {
-  width: 1128px;
-  margin: 120px auto 0 auto;
   padding-bottom: 120px;
 }
 
@@ -268,7 +276,6 @@ img {
 
 .about_list {
   width: 100%;
-  padding-top: 72px;
   display: flex;
   gap: 24px;
   flex-wrap: wrap;
@@ -281,8 +288,6 @@ img {
 }
 
 .team {
-  width: 1440px;
-  margin: 120px auto 0 auto;
   padding: 120px 0;
   background-color: var(--cloud);
 }
@@ -300,8 +305,6 @@ img {
 }
 
 .team_list {
-  width: 100%;
-  padding: 72px 156px;
   display: flex;
   gap: 24px;
 }
@@ -333,7 +336,6 @@ margin-bottom: 8px;
 }
 
 .team_list_item_card-text {
-  padding: 8px 0 32px 0;
   text-align: center;
   color: var(--slate, #434455);
   text-align: center;
@@ -352,7 +354,6 @@ margin-bottom: 8px;
 }
 
 .nav_filter {
-  width: 500px;
   margin-bottom: 72px;
   display: flex;
   justify-content: center;
@@ -410,20 +411,16 @@ margin-bottom: 8px;
 
 .portfolio_list_item {
   width: calc((100% - 48px) / 3);
-  outline: 1px solid var(--cornflower);
-  background: var(--white);
 }
 
 .container_portfolio{
   padding: 32px 16px;
   border: 1px solid #e7e9fc;
   border-top: none;
-  margin-bottom: 8px; 
 }
 
 .portfolio_list_item-title {
   margin-bottom: 8px ;
-  padding: 32px 16px 0 16px;
   color: var(--navyblue);
   font-family: Roboto;
   font-size: 20px;
@@ -434,7 +431,6 @@ margin-bottom: 8px;
 }
 
 .portfolio_list_item-subtitle {
-  padding: 8px 16px 32px 16px;
   color: var(--slate);
   font-family: Roboto;
   font-size: 16px;
@@ -444,9 +440,7 @@ margin-bottom: 8px;
   letter-spacing: 0.32px;
 }
 .footer {
-  margin: 120px auto 0 auto;
   padding: 100px 0;
-  width: 1440px;
   background: var(--navyblue);
 }
 .footer_wrapper {
@@ -473,7 +467,6 @@ margin-bottom: 8px;
 
 .footer_wrapper-text {
   max-width: 264px;
-  padding-top: 16px;
   color: var(--cloud);
   font-family: Roboto;
   font-size: 16px;
