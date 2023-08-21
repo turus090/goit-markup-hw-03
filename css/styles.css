@@ -354,9 +354,10 @@ margin-bottom: 8px;
 
 .nav_filter {
   width: 500px;
-  margin: 96px auto 0 auto;
+  margin-bottom: 72px;
   display: flex;
-  column-gap: 24px;
+  justify-content: center;
+  gap: 24px;
 }
 .nav_filter-btn {
   cursor: pointer;
@@ -390,6 +391,9 @@ margin-bottom: 8px;
 }
 
 /*portfolio*/
+.section_portfolio {
+  padding: 96px 0 120px 0;
+}
 
 .portfolio {
   width: 1128px;
