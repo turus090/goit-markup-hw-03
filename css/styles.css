@@ -29,7 +29,6 @@ img {
 
 .container {
   width: 1158px;
-  display: flex;
   padding: 0 15px;
   margin: 0 auto;
 }
@@ -382,12 +381,14 @@ margin-bottom: 8px;
   background: var(--ocean);
   box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12),
     0px 2px 1px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.1);
+    border: 1px solid transparent;
 }
 .nav_filter-btn:focus {
   color: #ffffff;
   border-radius: 4px;
   background: var(--ocean);
   box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+  border: 1px solid transparent;
 }
 
 /*portfolio*/
@@ -408,11 +409,19 @@ margin-bottom: 8px;
 }
 
 .portfolio_list_item {
+  width: calc((100% - 48px) / 3);
   outline: 1px solid var(--cornflower);
   background: var(--white);
 }
 
+.portfolio_list_item_link-name{
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none; 
+}
+
 .portfolio_list_item-title {
+  margin-bottom: 8px ;
   padding: 32px 16px 0 16px;
   color: var(--navyblue);
   font-family: Roboto;
